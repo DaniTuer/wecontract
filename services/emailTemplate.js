@@ -113,9 +113,9 @@ module.exports = ({ emailFrom, downloadLink, size, expires }) => {
                             <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
                                 <tr>
                                 <td style="font-family: lato; font-size: 14px; vertical-align: top;">
-                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Hi there,</p>
-                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;"><b>${emailFrom}</b> has shared a file with you.</p>
-                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">${size} in total ・ Expires in ${expires}</p>
+                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Hola, </p>
+                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;"><b>${emailFrom}</b> Ha compartido un contrato contigo</p>
+                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">${size} in total ・ Expirá en ${expires}</p>
                                     <table border="0" cellpadding="0" cellspacing="0" class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%; box-sizing: border-box;">
                                     <tbody>
                                         <tr>
@@ -131,8 +131,7 @@ module.exports = ({ emailFrom, downloadLink, size, expires }) => {
                                         </tr>
                                     </tbody>
                                     </table>
-                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Thank you for using inShare service.</p>
-                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Good luck! Hope it works.</p>
+                                    <p style="font-family: lato; font-size: 14px; font-weight: normal; margin: 0; Margin-bottom: 15px;">Gracias por usar el servicio de Tueri</p>
                                 </td>
                                 </tr>
                             </table>
@@ -148,7 +147,6 @@ module.exports = ({ emailFrom, downloadLink, size, expires }) => {
                             <tr>
                             <td class="content-block" style="font-family: sans-serif; vertical-align: top; padding-bottom: 10px; padding-top: 10px; font-size: 12px; color: #999999; text-align: center;">
                                 <span class="apple-link" style="color: #999999; font-size: 12px; text-align: center;">Tueriapp. Calle Ribera, 1, Valencia</span>
-                                <br> Want to share a file? <a href="http://localhost:3000" style="text-decoration: underline; color: #999999; font-size: 12px; text-align: center;">inShare</a>.
                             </td>
                             </tr>
                             <tr>
